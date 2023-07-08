@@ -87,11 +87,17 @@ background-position: bottom right;}
   margin-top: 5px;
   margin-bottom: 20px;
 }
+/* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .banner-description{
   margin-bottom: 20px;
 }
 .banne-content{
   max-width: 500px;
+  margin: 0 auto;
 }
 
 /*main section style */
@@ -102,3 +108,10 @@ background-position: bottom right;}
   margin: 130px 0;
 }
 /*about section style*/
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+}
